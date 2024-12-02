@@ -1,0 +1,9 @@
+.
+├── rearrange_dataset_into_train_val.py
+└── yolov5
+    ├── dataset1-before-rearrangement.zip
+    ├── dataset1.yaml
+    └── data
+    	├── videos
+    	    ├── transit-01.mov
+    
