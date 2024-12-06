@@ -16,8 +16,8 @@
 ---
 
 ### **Step 2: Download and Prepare the Dataset**
-1. Download the [**Instructor Dataset**](https://huggingface.co/datasets/Hirwa/Automatic_Number_Plate_Recognition/resolve/main/ANPR_dataset01.zip?download=true) (or refer to the Datasets section for the download link).
-2. Extract the dataset (`ANPR_dataset01.zip`) and locate the `dataset01` directory.
+1. Download the [**Instructor Dataset**](https://huggingface.co/datasets/Hirwa/Automatic_Number_Plate_Recognition/resolve/main/ANPR_dataset01.zip?download=true).
+2. Extract the dataset (`ANPR_dataset01.zip`) and locate the `dataset01` directory and move it in your  project directory `ANPR`.
 3. Use the provided script [`rearrange_dataset_into_train_val`.py](./scripts/rearrange_dataset_into_train_val.py) to organize the dataset for training:
    ```bash
    #in the root  where the dataset01 folder is 
